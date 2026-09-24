@@ -1,0 +1,52 @@
+[
+  {
+    "id": "direct-inhibition",
+    "input": "Recent findings suggest that direct KRAS G12D inhibition may improve treatment response in pancreatic cancer.",
+    "goldPmcids": ["PMC10754035", "PMC12302276"]
+  },
+  {
+    "id": "combination-relapse",
+    "input": "Combining KRAS G12D inhibition with chemotherapy may delay relapse compared with either treatment alone in pancreatic cancer.",
+    "goldPmcids": ["PMC11528210"]
+  },
+  {
+    "id": "protac-mtor-combination",
+    "input": "BCL-xL degradation and mTOR inhibition may sensitize pancreatic ductal adenocarcinoma to KRAS G12D inhibitors.",
+    "goldPmcids": ["PMC13025216"]
+  },
+  {
+    "id": "kras-degrader-durability",
+    "input": "CRBN-based KRAS G12D degraders may produce durable target depletion and tumor regression in pancreatic cancer models.",
+    "goldPmcids": ["PMC13576394"]
+  },
+  {
+    "id": "farnesyl-resistance",
+    "input": "Farnesyl-transferase inhibition may overcome resistance to KRAS G12D targeting in pancreatic cancer.",
+    "goldPmcids": ["PMC11646715"]
+  },
+  {
+    "id": "model-context",
+    "input": "The apparent response to KRAS G12D inhibition can differ between two-dimensional and three-dimensional pancreatic cancer models.",
+    "goldPmcids": ["PMC11646715"]
+  },
+  {
+    "id": "sirna-delivery",
+    "input": "Chitosan-PEG nanoparticles may improve co-delivery of paclitaxel and KRAS G12D-directed siRNA to pancreatic cancer cells.",
+    "goldPmcids": ["PMC13513521", "PMC12485160", "PMC9821664"]
+  },
+  {
+    "id": "resistance-mechanisms",
+    "input": "Multiple genetic and transcriptional programs can drive acquired resistance to KRAS inhibition in pancreatic cancer.",
+    "goldPmcids": ["PMC11528210", "PMC11536589"]
+  },
+  {
+    "id": "cell-state-response",
+    "input": "Pancreatic cancer cell state may influence response to KRAS G12D inhibition.",
+    "goldPmcids": ["PMC11528210"]
+  },
+  {
+    "id": "evidence-boundary",
+    "input": "Claims about KRAS G12D therapies in pancreatic cancer should distinguish preclinical efficacy from established patient outcomes.",
+    "goldPmcids": ["PMC12302276", "PMC12485160", "PMC13025216", "PMC13576394"]
+  }
+]

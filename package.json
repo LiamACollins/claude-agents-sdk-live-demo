@@ -1,0 +1,47 @@
+{
+  "name": "novamind-sdk-comparison",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "verify:eval": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/verify-evaluation-presentation.mjs",
+    "verify:cost": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/verify-model-cost.mjs",
+    "verify:evidence": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/verify-evidence-ledger.mjs",
+    "verify:tools": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/verify-tool-activity.mjs",
+    "eval:offline": "node scripts/run-offline-suite.mjs",
+    "corpus:build": "python3 scripts/build-pmc-corpus.py",
+    "corpus:export-local": "python3 scripts/export-local-pmc-sample.py",
+    "corpus:embed": "node scripts/embed-corpus-import.mjs",
+    "corpus:verify-import": "node scripts/verify-corpus-import.mjs",
+    "corpus:verify-upload": "node scripts/verify-convex-corpus-upload.mjs",
+    "verify:retrieval": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/verify-hybrid-retrieval.mjs",
+    "verify:lineage": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/verify-seed-lineage.mjs",
+    "verify:trace": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/verify-trace-presentation.mjs",
+    "verify:harness": "node scripts/verify-harness-parity.mjs"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "4.0.61",
+    "@anthropic-ai/claude-agent-sdk": "0.3.281",
+    "@fontsource/lora": "^5.2.8",
+    "@fontsource/poppins": "^5.2.8",
+    "@openai/agents": "0.18.0",
+    "ai": "7.0.112",
+    "braintrust": "^3.35.0",
+    "convex": "1.46.0",
+    "langsmith": "^0.10.5",
+    "next": "16.2.9",
+    "openai": "7.23.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "zod": "4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "typescript": "^5.8.3"
+  }
+}
